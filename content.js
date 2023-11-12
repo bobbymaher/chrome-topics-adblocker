@@ -842,11 +842,6 @@ document.browsingTopics = function () {
 
     return result;
 };
-
-// Example usage
-const browsingTopicsResult = document.browsingTopics();
-console.log(browsingTopicsResult);
-
 }
   
 // Inject the function into the webpage
