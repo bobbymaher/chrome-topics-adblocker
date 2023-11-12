@@ -1,8 +1,9 @@
-// This is the function that will be executed before the page loads
 function browsingTopics() {
 
 
 document.browsingTopics = function () {
+    console.log('the webpage attempted to access browsingTopics. We have given them random results');
+    
     const topics = [
         { "ID": 1,  "Topic": "/Arts & Entertainment"},
         { "ID": 2,  "Topic": "/Arts & Entertainment/Acting & Theater"},
